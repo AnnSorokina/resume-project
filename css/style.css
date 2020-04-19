@@ -21,6 +21,11 @@ body {
   display: flex;
 }
 
+ul,
+ol {
+  padding-left: 0;
+}
+
 .sidebar {
   background: #1e2939;
   width: 370px;
@@ -169,10 +174,6 @@ body {
   color: #a8a8a8;
 }
 
-.project-item-list {
-  padding-left: 0;
-}
-
 .project-item {
   font-weight: 700;
   margin-left: 17px;
@@ -208,7 +209,6 @@ body {
 .profession-duties {
   margin-top: 14px;
   margin-bottom: 30px;
-  padding-left: 0;
 }
 
 .profession-duties-item {
